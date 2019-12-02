@@ -17,9 +17,11 @@ Route::get('tasks/{id}', 'TaskController@show');
 Route::post('tasks', 'TaskController@store');
 Route::put('tasks/{id}', 'TaskController@update');
 Route::delete('tasks/{id}', 'TaskController@delete');
+Route::get('lists', 'UserController@index');
 Route::post('register', 'UserController@register');
 Route::post('login', 'UserController@login');
 Route::get('profile', 'UserController@getAuthenticatedUser');
+Route::post('postadduser', 'UserController@postadduser');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();

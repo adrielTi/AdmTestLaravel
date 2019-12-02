@@ -9,7 +9,7 @@ class TaskController extends Controller
 {
     public function index()
     {
-        return Task::all();
+        return view('tasks.index');
     }
  
     public function show($id)
