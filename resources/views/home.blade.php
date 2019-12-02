@@ -97,6 +97,7 @@
             </div>
         </div>
     </div>
+</div>   
     <script type="text/javascript">
     $('#novaListaModal').on('show.bs.modal', function(event) {
         var button = $(event.relatedTarget) // Button that triggewhite the modal

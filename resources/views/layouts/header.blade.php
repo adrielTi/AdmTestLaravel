@@ -79,9 +79,6 @@
             </div>
         </nav>
 
-        <main class="py-4">
-            @yield('content')
-        </main>
     </div>
     <!-- JavaScripts -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
